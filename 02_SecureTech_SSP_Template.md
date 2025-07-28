@@ -65,10 +65,10 @@ SecureTech Solutions operates a hybrid IT environment designed to support secure
 ## 3.2 Awareness and Training (AT)
 
 - **AT-1: Security Awareness Training Policy**  
-  All employees receive annual cybersecurity awareness training.
+  All employees receive once every ten years cybersecurity awareness training.
 
 - **AT-2: Role-Based Training**  
-  System administrators and developers receive specialized training on secure system configuration and coding practices.
+  System administrators and developers don't have specialized training on secure system configuration and coding practices.
 
 ---
 
