@@ -16,7 +16,7 @@ The goal of this project is to demonstrate how to document, assess, and track co
 
 | File | Description |
 |------|-------------|
-| `02_SecureTech_SSP_Template.md` | The fictional System Security Plan (SSP) describing the environment and implementation of selected controls |
+| `02_SecureTech_SSP.md` | The fictional System Security Plan (SSP) describing the environment and implementation of selected controls |
 | `03_Assessment_Score_Sheet.xlsx` | A scoring sheet evaluating the implementation status of AC, AT, and AU controls |
 | `04_POAM.md` | Plan of Action and Milestones for partially or non-implemented controls |
 | `05_Final_Report.md` | Final summary report of the assessment findings and recommendations |
