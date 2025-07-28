@@ -52,7 +52,7 @@ SecureTech Solutions operates a hybrid IT environment designed to support secure
   SecureTech maintains documented access control policies that define user roles and responsibilities. Policies are reviewed annually, but some departments have not acknowledged or adopted the latest version.
 
 - **AC-2: Account Management**
-  User accounts are managed via Azure Active Directory with automated provisioning and deactivation workflows. However, some terminated accounts were found to remain active beyond 30 days.
+  - User accounts are managed via Azure Active Directory with automated provisioning and deactivation workflows. However, some terminated accounts were found to remain active beyond 30 days.
 
 - **AC-3: Access Enforcement**  
   Role-based access controls (RBAC) are enforced across all systems, including SharePoint and internal servers.
