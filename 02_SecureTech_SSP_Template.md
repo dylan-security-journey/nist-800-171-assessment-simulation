@@ -49,10 +49,10 @@ SecureTech Solutions operates a hybrid IT environment designed to support secure
 ## 3.1 Access Control (AC)
 
 - **AC-1: Access Control Policy and Procedures**  
-  SecureTech maintains documented access control policies that define user roles and responsibilities. Policies are reviewed annually.
+  SecureTech maintains documented access control policies that define user roles and responsibilities. Policies are reviewed annually, but some departments have not acknowledged or adopted the latest version.
 
-- **AC-2: Account Management**  
-  User accounts are managed via Azure Active Directory with automated provisioning and deactivation workflows.
+- **AC-2: Account Management**
+  User accounts are managed via Azure Active Directory with automated provisioning and deactivation workflows. However, some terminated accounts were found to remain active beyond 30 days.
 
 - **AC-3: Access Enforcement**  
   Role-based access controls (RBAC) are enforced across all systems, including SharePoint and internal servers.
@@ -65,20 +65,20 @@ SecureTech Solutions operates a hybrid IT environment designed to support secure
 ## 3.2 Awareness and Training (AT)
 
 - **AT-1: Security Awareness Training Policy**  
-  All employees receive once every ten years cybersecurity awareness training.
+  All employees receive once every ten years cybersecurity awareness training, although the policy states training should occur annually.
 
 - **AT-2: Role-Based Training**  
-  System administrators and developers don't have specialized training on secure system configuration and coding practices.
+  System administrators and developers don't have specialized training on secure system configuration and coding practices, despite being listed as a requirement in the internal training policy.
 
 ---
 
 ## 3.3 Audit and Accountability (AU)
 
 - **AU-1: Audit Policy and Procedures**  
-  Audit policies are documented and reviewed quarterly.
+  Audit policies are documented and reviewed quarterly, but recent audits revealed that some systems were not included in the review scope.
 
 - **AU-2: Event Logging**  
-  Security events are logged using Splunk Cloud and retained for 12 months.
+  Security events are logged using Splunk Cloud and retained for 12 months. However, logs from mobile devices are not consistently captured.
 
 - **AU-3: Content of Audit Records**  
   Logs include timestamps, user IDs, event types, and source IP addresses.
@@ -88,10 +88,10 @@ SecureTech Solutions operates a hybrid IT environment designed to support secure
 ## 3.4 Configuration Management (CM)
 
 - **CM-1: Configuration Management Policy**  
-  SecureTech maintains a baseline configuration for all systems.
+  SecureTech maintains a baseline configuration for all systems, but enforcement of these baselines is inconsistent across departments.
 
 - **CM-2: Configuration Change Control**  
-  Changes are tracked via Jira and require approval before deployment.
+  Changes are tracked via Jira and require approval before deployment. However, emergency changes are sometimes implemented without formal documentation.
 
 ---
 
