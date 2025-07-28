@@ -196,7 +196,26 @@ SecureTech Solutions operates a hybrid IT environment designed to support secure
 ---
 
 ## 4. Appendices
-- Appendix A: Acronyms
-- Appendix B: References
-- Appendix C: Diagrams
+
+## Appendix A: Acronyms
+
+- CUI: Controlled Unclassified Information  
+- SSP: System Security Plan  
+- POA&M: Plan of Action and Milestones  
+- MFA: Multi-Factor Authentication  
+- RBAC: Role-Based Access Control  
+- SIEM: Security Information and Event Management  
+- VPN: Virtual Private Network  
+- AD: Active Directory  
+- IR: Incident Response  
+
+## Appendix B: References
+
+- NIST SP 800-171 Rev. 2 – Protecting Controlled Unclassified Information in Nonfederal Systems  
+- NIST SP 800-171A – Assessment Guide for NIST 800-171  
+- CIS Benchmarks – System Hardening Guidelines  
+- Microsoft Azure Security Documentation  
+- Splunk Cloud SIEM Documentation  
+
+
 
