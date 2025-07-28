@@ -1,15 +1,13 @@
 ## 📋 Plan of Action and Milestones (POA&M)
 
-This POA&M addresses gaps in NIST 800-171 controls for SecureTech Solutions.
-
-| **Control ID** | **Weakness** | **Planned Actions** | **Resources Required** | **Milestone Completion Date** | **Responsible Party** | **Status** |
-|----------------|--------------|----------------------|-------------------------|-------------------------------|------------------------|------------|
-| **AT-1** | No formal security awareness training program | Develop and deploy mandatory annual training for all employees | LMS platform, training content, HR coordination | 2025-08-30 | HR & IT Security | In Progress |
-| **AC-1** | Access control policy not documented | Draft and approve formal access control policy aligned with least privilege | Policy writer, IT governance team | 2025-08-15 | CISO Office | Not Started |
-| **SI-1** | No documented system integrity policy | Create policy for monitoring and maintaining system integrity | Policy template, IT operations input | 2025-09-05 | IT Operations | Not Started |
-| **SI-2** | No formal flaw remediation process | Implement patch management schedule and vulnerability tracking | Patch management tool, IT staff | 2025-09-15 | IT Security | In Progress |
-| **MP-1** | Media protection policy missing | Develop policy for handling, storing, and disposing of media | Legal review, IT asset team | 2025-08-20 | Compliance Team | Not Started |
-| **MP-2** | Unrestricted access to removable media | Restrict access via group policies and endpoint controls | Endpoint management software | 2025-08-25 | IT Admin | In Progress |
-| **CM-2** | No baseline configurations for systems | Define and document secure baseline configurations for all systems | Configuration templates, system inventory | 2025-09-10 | IT Infrastructure | Not Started |
-
+| Control Family | Control ID | Control Name | Weakness Description | Planned Action | Responsible Party | Target Completion Date | Status |
+|----------------|------------|--------------|-----------------------|----------------|-------------------|------------------------|--------|
+| Access Control | AC-1 | Access Control Policy and Procedures | Policies exist and are reviewed annually but not accepted by all departments. | Ensure all departments acknowledge and adopt the latest access control policies. | Compliance Officer | 2025-08-15 | Planned |
+| Access Control | AC-2 | Account Management | Automated provisioning in place but some terminated accounts remain active. | Implement automated deactivation checks and audit terminated accounts monthly. | IT Administrator | 2025-08-20 | In Progress |
+| Awareness and Training | AT-1 | Security Awareness Training Policy | Training occurs every ten years; policy requires annual training. | Update training schedule to ensure annual cybersecurity awareness sessions. | HR Manager | 2025-08-10 | Planned |
+| Awareness and Training | AT-2 | Role-Based Training | Admins and developers lack specialized training despite policy requirements. | Develop and deliver role-specific training modules for technical staff. | Training Coordinator | 2025-08-18 | Planned |
+| Audit and Accountability | AU-1 | Audit Policy and Procedures | Policies reviewed quarterly but mobile system allowed from audit scope. | Expand audit scope to include mobile systems and update procedures accordingly. | Audit Lead | 2025-08-22 | Planned |
+| Audit and Accountability | AU-2 | Event Logging | Logs retained in Splunk but mobile device logs are inconsistent. | Configure mobile device logging and integrate with Splunk for consistency. | Security Engineer | 2025-08-25 | Planned |
+| Configuration Management | CM-1 | Configuration Management Policy | Baseline configurations exist but enforcement is inconsistent. | Automate baseline enforcement and conduct periodic compliance checks. | Configuration Manager | 2025-08-28 | Planned |
+| Configuration Management | CM-2 | Configuration Change Control | Changes tracked in Jira but emergency changes lack documentation. | Establish emergency change documentation protocol and train staff. | Change Control Officer | 2025-08-30 | Planned |
 
