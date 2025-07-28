@@ -1,76 +1,80 @@
 # 🛡️ Final Project Report: NIST SP 800-171 Assessment Simulation
 
-**Project Title**: SecureTech Solutions – System Security Plan (SSP) and Assessment  
+**Project Title**: SecureTech SSP & Control Assessment  
 **Author**: Dylan Nguyen  
 **Date**: July 28, 2025  
-**Repository**: `nist-800-171-assessment-simulation`
+**Scope**: Access Control (AC), Awareness and Training (AT), Audit and Accountability (AU)
 
 ---
 
-## 📌 Project Overview
+## 📌 1. Project Overview
 
-SecureTech Solutions is a fictional small business that provides IT and cybersecurity services to government contractors and SMEs. This project simulates the creation and evaluation of a System Security Plan (SSP) for SecureTech's Controlled Unclassified Information (CUI) environment, in alignment with **NIST SP 800-171 Rev. 2**.
-
-The project includes:
-- A detailed SSP narrative
-- A control-by-control assessment score sheet
-- A Plan of Action and Milestones (POA&M)
-- A final report summarizing the findings
+This project simulates a partial NIST SP 800-171 assessment for a fictional company, **SecureTech Solutions**, which provides IT and cybersecurity services to government contractors. The goal was to demonstrate how to document and assess selected control families within a System Security Plan (SSP), and to identify areas for improvement using a Plan of Action and Milestones (POA&M).
 
 ---
 
-## 🧪 Methodology
+## 🎯 2. Scope
 
-The assessment followed the 14 control families and 110 requirements defined in NIST SP 800-171. Each control was evaluated using a 3-tier scoring system:
+The assessment focused on the following three control families:
 
-| Score | Meaning |
-|-------|---------|
-| 1     | Basic implementation or ad hoc |
-| 2     | Documented and partially optimized |
-| 3     | Fully implemented and mature |
+- **Access Control (AC)**
+- **Awareness and Training (AT)**
+- **Audit and Accountability (AU)**
 
-Artifacts created:
-- `02_SecureTech_SSP_Template.md`: Narrative SSP
-- `03_Assessment_Score_Sheet.xlsx`: Control-by-control scoring
-- `04_POAM.md`: Remediation plan for gaps
+These families were selected to demonstrate a representative sample of technical, procedural, and human-centric controls.
 
 ---
 
-## 🔍 Key Findings
+## 🧪 3. Methodology
 
-- **Total Controls Evaluated**: 31 (subset of 110 for simulation)
-- **Fully Implemented (Score 3)**: 3
-- **Partially Implemented (Score 1)**: 1
-- **Not Implemented (Score 0)**: 0
-- **Total Score**: 38 / 93
-- **Implementation Rate**: 76%
+The assessment followed the structure of NIST SP 800-171 Rev. 2 and included:
 
----
-
-## 🧱 POA&M Summary
-
-The following controls were identified as **not implemented** and added to the POA&M:
-
-| Control ID | Control Name                     | Weakness Description                        | Target Date  | Status       |
-|------------|----------------------------------|---------------------------------------------|--------------|--------------|
-| CM-3       | Configuration Change             | No formal change control process            | 2025-08-15   | In Progress  |
-| CM-6       | Configuration Settings           | No baseline enforcement                     | 2025-08-20   | Planned      |
-| IR-4       | Incident Handling                | No documented incident handling procedures  | 2025-08-25   | Not Started  |
-| PM-9       | Risk Assessment                  | No formal risk assessment process           | 2025-08-28   | Not Started  |
-
-See full POA&M: [`04_POAM.md`](04_POAM.md)
+- Reviewing SSP implementation statements for each control
+- Assigning implementation scores (0 = Not Implemented, 10 = Intermediate, 20 = Fully Implemented)
+- Documenting weaknesses and planned remediation in a POA&M
 
 ---
 
-## ✅ Conclusion
+## 🔍 4. Key Findings
 
-This simulation demonstrates a structured approach to NIST SP 800-171 compliance for a fictional organization. By documenting the SSP, scoring implementation maturity, and identifying remediation actions, SecureTech Solutions has a clear roadmap for improving its cybersecurity posture.
+### ✅ Access Control (AC)
+| Control | Description | Status | Notes |
+|---------|-------------|--------|-------|
+| AC-1 | Access Control Policy | ⚠️ Partial | Some departments have not adopted the latest policy |
+| AC-2 | Account Management | ⚠️ Partial | Terminated accounts remained active beyond 30 days |
+| AC-3 | Access Enforcement | ✅ Implemented | RBAC enforced across systems |
+| AC-4 | Information Flow Enforcement | ✅ Implemented | VLANs and firewall rules in place |
 
-This project can serve as a portfolio piece for cybersecurity professionals preparing for roles in compliance, GRC, or federal contracting.
+### ⚠️ Awareness and Training (AT)
+| Control | Description | Status | Notes |
+|---------|-------------|--------|-------|
+| AT-1 | Security Awareness Training | ❌ Not Implemented | Training occurs every 10 years instead of annually |
+| AT-2 | Role-Based Training | ❌ Not Implemented | No specialized training for admins or developers |
+
+### ⚠️ Audit and Accountability (AU)
+| Control | Description | Status | Notes |
+|---------|-------------|--------|-------|
+| AU-1 | Audit Policy | ⚠️ Partial | Some systems excluded from audit scope |
+| AU-2 | Event Logging | ⚠️ Partial | Mobile device logs not consistently captured |
+| AU-3 | Audit Record Content | ✅ Implemented | Logs include required metadata |
 
 ---
 
-**Next Steps**:
-- Complete POA&M remediation tasks
-- Expand assessment to all 110 controls
-- Conduct internal audit and update SSP quarterly
+## 🛠️ 5. POA&M Summary
+
+| Control | Weakness | Planned Action | Target Date | Status |
+|---------|----------|----------------|-------------|--------|
+| AC-1 | Policy not adopted org-wide | Re-distribute and train on updated policy | 2025-08-15 | Planned |
+| AC-2 | Terminated accounts remain active | Automate deactivation in Azure AD | 2025-08-20 | In Progress |
+| AT-1 | Training not annual | Update policy and schedule annual training | 2025-08-10 | Planned |
+| AT-2 | No role-based training | Develop secure config/coding training | 2025-08-25 | Not Started |
+| AU-1 | Incomplete audit scope | Expand audit coverage to all systems | 2025-08-18 | Planned |
+| AU-2 | Missing mobile logs | Integrate mobile logging into SIEM | 2025-08-22 | Planned |
+
+---
+
+## ✅ 6. Conclusion
+
+This simulation demonstrates how to document and assess selected NIST SP 800-171 controls in a structured and actionable way. While some controls were fully implemented, others revealed gaps in policy enforcement, training, and audit coverage. The POA&M provides a clear roadmap for remediation and continuous improvement.
+
+This project serves as a portfolio-ready example of compliance documentation, risk identification, and control assessment aligned with federal cybersecurity standards.
