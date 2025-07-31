@@ -11,7 +11,7 @@ SecureTech Solutions is a fictional small business specializing in providing IT 
 
 The company’s mission is to empower clients to meet federal cybersecurity requirements and protect sensitive data through tailored, cost-effective solutions. SecureTech Solutions operates in a hybrid cloud environment and handles Controlled Unclassified Information (CUI) on behalf of its clients, making compliance with NIST SP 800-171 a critical component of its operations.
 
-This System Security Plan (SSP) outlines the technical and procedural safeguards implemented by SecureTech Solutions to meet the 110 security requirements defined in NIST SP 800-171, ensuring the confidentiality, integrity, and availability of CUI within its systems.
+This System Security Plan (SSP) outlines the technical and procedural safeguards implemented by SecureTech Solutions to meet primarily three control families defined in NIST SP 800-171, ensuring the confidentiality, integrity, and availability of CUI within its systems.
 ---
 
 ## 2. System Boundary Description
